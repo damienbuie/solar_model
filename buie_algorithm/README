@@ -11,9 +11,10 @@
  * 
  * Please read the section on the warranty
  *
- * To compile 
- * g++ -Ilib test.cpp -o test 
- * ./test
+ * To compile (C++17 or later; vecmath uses noexcept instead of deprecated
+ * exception specifications):
+ *   g++ -std=c++17 -Ilib test.cpp -o test
+ *   ./test
  * 
  * that will give an example of the core elements and come april it will
  * documented for a presentation I am giving in Italy.

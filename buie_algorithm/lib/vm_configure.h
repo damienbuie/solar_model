@@ -114,8 +114,9 @@
 
 
 #ifdef USE_EXCEPTION
-# define _NO_THROW        throw ()
-# define _THROW_ERROR     throw (std::logic_error)
+/* C++17 removed dynamic exception specifications; use noexcept instead. */
+# define _NO_THROW        noexcept
+# define _THROW_ERROR     noexcept(false)
 # define REPORT_ERROR(ErrormMsg)  throw std::logic_error( ErrormMsg);
 # define OUT_OF_RANGE throw std::out_of_range("Error: OUT OF RANGE");
 # define OPEN_ERROR throw std::logic_error("Error: Couldn't open file");

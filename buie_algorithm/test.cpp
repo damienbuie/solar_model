@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int main(int argc,char** argv){
+int main(int, char**){
 	
 
 	modelling::Sunpos<double> pos;
@@ -20,7 +20,7 @@ int main(int argc,char** argv){
 
 	for (size_t i = spat.size(); i--; ) {
 		spat.get(vec,weight,i);
-		std::cout<<vec<<" "<<weight<<std::endl;
+//		std::cout<<vec<<" "<<weight<<std::endl;
 	}
 
 	std::cout<<std::endl;

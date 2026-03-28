@@ -1,2 +1,3 @@
-# Local build artifact (see README in buie_algorithm/)
-buie_algorithm/test
+# Local build artifact (see README)
+/test
+.DS_Store

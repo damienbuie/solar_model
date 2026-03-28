@@ -11,8 +11,8 @@
  * 
  * Please read the section on the warranty
  *
- * To compile (C++17 or later; vecmath uses noexcept instead of deprecated
- * exception specifications):
+ * To compile from this directory (C++17 or later; vecmath uses noexcept
+ * instead of deprecated exception specifications):
  *   g++ -std=c++17 -Ilib test.cpp -o test
  *   ./test
  * 
